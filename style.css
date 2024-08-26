@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    color: white
+}
+
+.container {
+    background-color: #23272F;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.learnbox {
+    display: flex;
+    flex-direction: column;
+    background-color: #343A46;
+    padding: 20px;
+    margin-bottom: 10px;
+
+    border: 1px solid black;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+h3 {
+    height: 5px;
+}
